@@ -9,11 +9,19 @@ Requires:
 Python 3
 
 Usage:
-`cfth.py --digest= --file= --hash=`
+cfth.py [digest] [file] [hash]
+
+Example:
+`python3 cfth.py md5 README.md 795ce9c6e754d746225ad1352aa7bf55
+----------
+Hash of file: 795ce9c6e754d746225ad1352aa7bf55
+Hash to check: 795ce9c6e754d746225ad1352aa7bf55
+Hashes are the same: True
+----------`
 
 Supported hash digests:
- md5sum
- sha1sum
- sha224sum
- sha256sum
- sha512sum
+ md5
+ sha256
+ sha512
+ sha1
+ sha224
