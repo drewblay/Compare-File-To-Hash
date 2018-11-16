@@ -22,7 +22,7 @@ cfth.py [digest] [file] [hash]
 
 ### Examples:
 
-###### Run manually.
+###### Run manually:
 ```
 $ python3 cfth.py md5 README.md 795ce9c6e754d746225ad1352aa7bf55
 ----------
@@ -32,7 +32,7 @@ Hashes match: True
 ----------
 ```
 
-###### Make executable
+###### Make executable:
 If you use this method you won't have prefix the command with python3, however you will have to be in the directory where cfthy.py resides.
 ```
 $ chmod +x cfth.py
@@ -44,7 +44,7 @@ Hashes match: True
 ----------
 ```
 
-###### Make executable and make availbe globally
+###### Make executable and make availbe globally:
 If you use this method you can just call cfth from anywhere.
 ```
 $ chmod +x cfth.py
