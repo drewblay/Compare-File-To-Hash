@@ -36,7 +36,7 @@ Hashes match: True
 If you use this method you won't have prefix the command with python3, however you will have to be in the directory where cfthy.py resides.
 ```
 $ chmod +x cfth.py
-$ cfth.py md5 README.md 795ce9c6e754d746225ad1352aa7bf55
+$ ./cfth.py md5 README.md 795ce9c6e754d746225ad1352aa7bf55
 ----------
 Hash of file: 795ce9c6e754d746225ad1352aa7bf55
 Hash to check: 795ce9c6e754d746225ad1352aa7bf55
