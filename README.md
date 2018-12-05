@@ -3,7 +3,7 @@ So you downloaded a file and see that the publisher listed the files hash. You c
 
 With cfth (compare file to hash)  you canquickly check the files hash to the hash provided by the publisher. 
 
-Should work on any Linux distro, BSD distro, and MacOS.
+Should work on any Linux distro, and the Linux subsystem on Windows.
 
 ### Requires:
 Python 3
